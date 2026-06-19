@@ -4,10 +4,12 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-Compose-7F52FF?logo=kotlin)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)
 
-<p align="center">
-  <img src="screenshots/software.png" width="240" alt="Android 主界面">
-  <img src="screenshots/web.png" width="240" alt="手机浏览器控制面板">
-</p>
+<div align="center">
+  <table><tr>
+    <td><img src="screenshots/software.png" width="240" alt="Android 主界面"></td>
+    <td><img src="screenshots/web.png" width="240" alt="手机浏览器控制面板"></td>
+  </tr></table>
+</div>
 
 > 用手机控制电脑上的 **网易云音乐** — Android App 和手机浏览器双端支持
 
