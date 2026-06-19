@@ -189,17 +189,24 @@ class RequestHandler(BaseHTTPRequestHandler):
 
 
 def main():
+    ip = RequestHandler._get_local_ip()
+    url = f"http://{ip}:{PORT}"
+    box_w = len(url) + 4  # 两侧各留 2 空格
+    border = "┌" + "─" * box_w + "┐"
+    pad = " " * 2
+
     print("=" * 54)
     print("  网易云音乐 Windows 遥控服务端")
     print("=" * 54)
     print(f"""
   监听地址: http://0.0.0.0:{PORT}
+  本机 IP:  {ip}
   注: 必须「以管理员身份运行」才能模拟键盘操作
 
   在同一 WiFi 下用手机浏览器访问:
-  ┌─────────────────────────────┐
-  │  http://本机IP:{PORT}  │
-  └─────────────────────────────┘
+  {border}
+  │{pad}{url}{pad}│
+  └{"─" * box_w}┘
 
   按 Ctrl+C 停止服务
     """)
