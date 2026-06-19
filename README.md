@@ -47,6 +47,10 @@ python server.py
 
 **方式 A — 手机浏览器**
 
+<p align="left">
+  <img src="screenshots/web.png" width="240" alt="设置页面">
+</p>
+
 在同一 WiFi 下，手机浏览器访问：
 
 ```
@@ -57,7 +61,7 @@ http://电脑IP:8888
 
 **方式 B — Android App**
 
-<p align="center">
+<p align="left">
   <img src="screenshots/software.png" width="240" alt="设置页面">
 </p>
 
